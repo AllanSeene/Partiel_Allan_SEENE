@@ -95,10 +95,22 @@ main {
         justify-items: center;
     }
     #Bas_page{
-        height: 70px;
+        
         margin-top: 60px;
         display: flex;
         justify-content: center;
+        background-image: url("/images/bouton.jpg");
+        background-size: cover;
+        button{
+            height: 70px;
+            width: 100px;
+            &:hover{
+                width: 500px;
+                border: 2px solid purple;
+                color: #6a3460;
+                
+            }
+        }
     }
 }
 footer {
